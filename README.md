@@ -5,6 +5,6 @@ I have not really tested the efficiency of this.
 There are still features that I might add such as prepending timestamps, logging to files, debug levels.  
 
 ## How to use
-`npm i --save supersimplelogger`  
-`const logger = require('../index')('My prefix')`  
+`npm i --save @natfaulk/supersimplelogger`  
+`const logger = require('@natfaulk/supersimplelogger')('My prefix')`  
 `logger('Some log message')`  
