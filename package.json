@@ -1,6 +1,6 @@
 {
   "name": "@natfaulk/supersimplelogger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A super simple logging utility for my own use",
   "main": "index.js",
   "scripts": {
