@@ -1,0 +1,19 @@
+{
+  "name": "@natfaulk/supersimplelogger",
+  "version": "1.0.0",
+  "description": "A super simple logging utility for my own use",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natfaulk/superSimpleLogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natfaulk/superSimpleLogger/issues"
+  },
+  "homepage": "https://github.com/natfaulk/superSimpleLogger#readme"
+}
