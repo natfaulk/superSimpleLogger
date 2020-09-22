@@ -1,6 +1,6 @@
 let makeLogger = _prefix => {
   let p = ''
-  if (process.env.SSLOGGER_PROCESS_PREFIX !== undefined) {
+  if (process!==undefined && process.env.SSLOGGER_PROCESS_PREFIX!==undefined) {
     p = `[${process.env.SSLOGGER_PROCESS_PREFIX}] `
   }
   
@@ -16,4 +16,6 @@ let makeLogger = _prefix => {
   }
 }
 
-module.exports = makeLogger
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = makeLogger
+} else window.makeLogger = makeLogger
